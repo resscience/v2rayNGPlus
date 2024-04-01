@@ -11,8 +11,8 @@ android {
         applicationId = "com.vfarid.v2rayng"
         minSdk = 21
         targetSdk = 34
-        versionCode = 550
-        versionName = "1.8.0"
+        versionCode = 552
+        versionName = "1.8.19"
         multiDexEnabled = true
     }
 
