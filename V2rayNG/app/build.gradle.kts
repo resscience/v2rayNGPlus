@@ -8,11 +8,11 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.v2ray.ang"
+        applicationId = "com.vfarid.v2rayng"
         minSdk = 21
         targetSdk = 34
         versionCode = 550
-        versionName = "1.8.18"
+        versionName = "1.8.0"
         multiDexEnabled = true
     }
 
@@ -61,7 +61,7 @@ android {
                 else
                     "all"
 
-                output.outputFileName = "v2rayNG_${variant.versionName}_${abi}.apk"
+                output.outputFileName = "v2rayNGPlus_${variant.versionName}_${abi}.apk"
                 if(versionCodes.containsKey(abi))
                 {
                     output.versionCodeOverride = (1000000 * versionCodes[abi]!!).plus(variant.versionCode)
